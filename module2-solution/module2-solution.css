@@ -1,0 +1,88 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: Lucida Console;
+	background-color: ghostwhite;
+}
+
+.row
+{
+	width: 100%;
+}
+
+div#container 
+{
+  	border: 1px solid black;
+  	background-color: lightgray;
+}
+
+
+h1
+{
+	text-align: center;
+	font-size: 175%;
+}
+
+section.structure
+{
+	margin: 10px;
+	border: 1px solid black;
+  	background-color: lightgray;
+}
+
+section.topic
+{
+	border: 1px solid black;
+  	text-align: center;
+  	color: black;
+  	font-size: 125%;
+  	width: 100px;
+  	float: right;
+  	font-weight: bold;
+}
+
+section.content
+{
+	clear: right;
+	color: black;
+	padding: 10px;
+	border: 0px solid black;
+}
+
+
+@media (min-width: 992px)
+{
+    .col-lg-4
+    {
+    	float: left;
+    	width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+    .col-md-6-first-two-items
+    {
+    	float: left;
+    	width: 50%;
+
+    }
+    .col-md-6-last-item
+    {
+    	float: left;
+    	width: 100%;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .col-sm-12
+    {
+    	float: left;
+    	width: 100%;
+    }
+}
